@@ -1,13 +1,3 @@
-# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
-# Sat Feb 15 11:18:19 2014
-#
-# COLUMN pl_discmethod:  Discovery Method
-# COLUMN pl_pnum:        Number of Planets in System
-# COLUMN pl_orbper:      Orbital Period (val)
-# COLUMN pl_msinij:      Planet M*sin(i) [jup] (val)
-# COLUMN st_dist:        Distance (val)
-# COLUMN pl_disc:        Year of Discovery
-#
 rowid,pl_discmethod,pl_pnum,pl_orbper,pl_msinij,st_dist,pl_disc
 1,Radial Velocity,1,269.30000000,7.10000,77.40,2006
 2,Radial Velocity,1,874.77400000,2.21000,56.95,2008
