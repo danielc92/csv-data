@@ -2,7 +2,7 @@
 This repository serves as a backend for the [flask-visualization](https://github.com/danielc92/flask_visualization) web application project. It is essentially a collection of publicly available .csv files, with the intent of being imported using `pandas.read_csv` function from any given web application.
 
 # Before you get started
-Not applicable.
+Required to know how to use `pandas` basic functions such as `read_csv`.
 
 # Setup
 **How to obtain this repository:**
@@ -12,6 +12,13 @@ git clone https://github.com/danielc92/csv
 
 # Tests
 - Calling raw `.csv` links with `pandas` library successfully.
+
+# Usage Example 
+```python
+url = 'https://raw.githubusercontent.com/danielc92/csv-data/master/r-datasets/Arrests.csv'
+data = pandas.read_csv(url)
+print(data.head())
+```
 
 # Contributors
 - Daniel Corcoran
