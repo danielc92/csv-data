@@ -7,7 +7,7 @@ Required to know how to use `pandas` basic functions such as `read_csv`.
 # Setup
 **How to obtain this repository:**
 ```sh
-git clone https://github.com/danielc92/csv
+git clone https://github.com/danielc92/csv-data.git
 ```
 
 # Tests
